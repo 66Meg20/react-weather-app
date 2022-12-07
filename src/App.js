@@ -1,4 +1,6 @@
 import Weather from "./Weather.js";
+
+import "./Weather.css";
 import "./App.css";
 
 function App() {

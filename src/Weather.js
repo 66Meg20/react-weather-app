@@ -5,7 +5,7 @@ export default function Weather() {
     <div className="Weather">
       <form>
         <div className="row">
-          <div className="col-3">
+          <div className="col-9">
             <input type="search" placeholder="Type a city..." />
           </div>
           <div className="col-3">
@@ -24,7 +24,8 @@ export default function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/48/cloudy.png"
             alt="Mostly cloudy"
           />
-          6°
+          <span className="temperature">6</span>{" "}
+          <span className="units">°c</span>
         </div>
 
         <div className="col-6">
