@@ -16,6 +16,7 @@
 }
 .Weather img {
   float: left;
+  width: 64px;
 }
 .Weather .units {
   position: relative;
